@@ -93,7 +93,7 @@ nav li:hover{
     height: 100dvh;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url(/cover.jpg);
+                       rgba(0, 0, 0, 0.5)), url(cover.jpg);
 
     overflow-x: hidden;
     background-size: cover;
