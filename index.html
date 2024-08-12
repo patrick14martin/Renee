@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renee Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <nav>
+            <div class="container">
+                <a href="index.html"><img src="/images/renee.png" alt=""></a>
+                    <ul>
+                      <li><a href="menu.html">MENU</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="location.html">LOCATION</a></li>
+                    </ul>
+            </div>
+            
+        </nav>
+    
+        <div class="backgroundimage">
+            
+        
+            <div class="center">
+                <h1>Renée Coffee</h1>
+                <p>For your coffee fix.</p>
+                <img class="mySlides" src="/images/pic1.jpg">
+                <img class="mySlides" src="/images/pic2.jpg">
+                <img class="mySlides" src="/images/pic3.jpg">
+           
+        
+        <img class="mySlides" src="/images/pic1.jpg">
+        <img class="mySlides" src="/images/pic2.jpg">
+        <img class="mySlides" src="/images/pic3.jpg">
+        
+    </div>  
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>

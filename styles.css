@@ -1,0 +1,158 @@
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+body, html {
+    margin: 0px;
+    height: max-content;
+    overflow-x:hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    background-color: black;
+    
+}
+
+nav li{
+    list-style:none;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+  
+    
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width:100px;
+    transform: scale(0.9);
+    cursor: pointer;
+   padding: 10px;
+   
+    
+}
+nav img:hover{
+    transition:100ms;
+    transform: scale(1.2);
+}
+nav ul{
+    display: flex;
+    
+    
+}
+nav li{
+  
+   border-radius: 10px;
+   border: 1px solid;
+   text-align: center;
+   margin:20px;
+   padding:20px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 15px;
+   
+}
+nav li:hover{
+    opacity:0.5;
+    cursor: pointer;
+    transition:100ms;
+}
+
+.center{
+  display: flex;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5%;
+    flex-direction: row;
+    row-gap: 50px;
+}
+.center h1, p{
+    margin:auto ;
+   
+    color: #fff;
+
+    font-family: "Montserrat", sans-serif;
+}
+.hoverable:hover{
+    transform: scale(1.2);
+    transition:100ms;
+}
+
+
+.backgroundimage{
+    height: 100dvh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(/cover.jpg);
+
+    overflow-x: hidden;
+    background-size: cover;
+  
+}
+
+
+.about-center{
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.about-center p{
+    margin: 35px;
+
+}
+/* About */
+.about-images img{
+    height: 350px;
+    padding:10px;
+    border-radius: 30px;
+}
+/* Menu */
+
+
+.menu-images img{
+    height:600px;
+}
+
+/* Location */
+.location-container{
+    display: flex;
+    padding: 50px;
+}
+.location-container iframe{
+   padding: 30px;
+   
+}
+.location-container p{
+    flex-direction: column;
+}
+.location-center{
+    text-align: center;
+    align-items: center;
+}
+.location-center h1,p{
+    padding: 20px;
+}
+.location-center a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+     color: #fff;
+     text-transform: uppercase;
+}
+
+/* MySlides */
+.mySlides{
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+   
+}
