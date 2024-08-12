@@ -33,6 +33,7 @@ nav a{
 nav .container{
     display: flex;
     justify-content: space-between;
+    
 }
 nav img{
     width:100px;
@@ -52,7 +53,7 @@ nav ul{
     
 }
 nav li{
-  
+    
    border-radius: 10px;
    border: 1px solid;
    text-align: center;
@@ -155,4 +156,30 @@ nav li:hover{
     text-align: center;
     justify-content: center;
    
+}
+
+@media(max-width: 600px) {
+   
+    nav ul{
+        display: block;
+        
+    }
+    nav .container{
+        display: block;
+    }
+    nav .container img{
+        margin-left:38%;
+    }
+    .mySlides{
+        width:360px;
+        
+    }
+    .location-container{
+        display: block;
+    }
+    .location-container iframe{
+        padding: 0;
+        
+     }
+
 }
